@@ -3,7 +3,7 @@
 //  Interval kirim data: 6 jam (sesuai firmware)
 // ============================================
 
-const API = 'http://localhost:3001/api';
+const API = 'https://aaa-production-c0f5.up.railway.app/api';
 
 // ── AUTH GUARD ────────────────────────────────
 const token = localStorage.getItem('kjg_token');

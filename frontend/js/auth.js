@@ -2,8 +2,7 @@
 //  KJG BUOY TRACKER — Auth JS (Login Page)
 // ============================================
 
-const API = 'http://localhost:3001/api';
-
+const API = 'https://aaa-production-c0f5.up.railway.app/api';
 if (localStorage.getItem('kjg_token')) {
   window.location.href = 'dashboard.html';
 }
